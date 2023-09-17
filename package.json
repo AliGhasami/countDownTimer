@@ -1,6 +1,12 @@
 {
   "name": "agh-countdowntimer",
   "version": "1.0.0",
+  "description": "Count down Timer for vue 3",
+  "author": {
+    "name": "Ali Ghasami",
+    "email": "alighassami@yahoo.com",
+    "url": "https://github.com/AliGhasami/countDownTimer"
+  },
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -28,5 +34,30 @@
     "vite": "^3.0.1",
     "vue": "^3.2.37",
     "vue-tsc": "^0.38.8"
-  }
+  },
+  "license": "MIT",
+  "keywords": [
+    "count down timer",
+    "vue",
+    "vue 3"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliGhasami/countDownTimer"
+  },
+  "bugs": {
+    "url": "https://github.com/AliGhasami/countDownTimer/issues"
+  },
+  "homepage": "https://github.com/AliGhasami/countDownTimer",
+  "files": [
+    "dist/*",
+    "dist/*.js",
+    "dist/*.css",
+    "dist/index.d.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "index.d.ts"
 }
